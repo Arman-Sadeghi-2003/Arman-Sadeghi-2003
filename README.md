@@ -189,8 +189,12 @@ hobbies: ["Coding", "Tech Innovation", "Problem Solving"]
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
   
   ### <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="20" /> Thanks for visiting! Let's build something amazing together! <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="20" />
+
   
-  ![Snake animation](https://github.com/Arman-Sadeghi-2003/Arman-Sadeghi-2003/blob/output/github-contribution-grid-snake.svg)
+
+  <img src="https://github.com/user-attachments/assets/0c2fe3f6-c02e-4411-89a5-2d66d14a4da0" alt="octocat" width="600" height="600">
+  
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
   
 </div>
 
