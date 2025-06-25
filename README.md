@@ -24,7 +24,7 @@
 
 ```yaml
 name: Arman Sadeghi
-located_in: Azerbaijan, Baku
+located_in: Tehran, Iran
 current_job: .NET Developer
 education: ["Self-Taught", "Continuous Learning"]
 company: Building Amazing Things
