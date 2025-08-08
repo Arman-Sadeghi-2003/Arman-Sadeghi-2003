@@ -32,10 +32,10 @@ company: Building Amazing Things
 fields_of_interests:
   [
     ".NET Development",
-    "Cross-Platform Apps", 
+    "Cross-Platform Apps",
+    "Problem Solving",
     "AI Integration",
-    "AI Agents",
-    "Problem Solving"
+    "AI Agents"
   ]
 
 technical_background:
@@ -43,9 +43,9 @@ technical_background:
     "Desktop Applications",
     "Mobile Development", 
     "Database Design",
-    ".NET MAUI",
-    "UWP",
-    "Avalonia",
+    "Prompt Engineering",
+    "Agentic AI",
+    "Autonomous AI"
   ]
 
 currently_learning: ["AI Agents", "Pydantic"]
@@ -76,6 +76,10 @@ hobbies: ["Coding", "Tech Innovation", "Problem Solving"]
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=.net&logoColor=white)
 ![Avalonia](https://img.shields.io/badge/Avalonia-7B68EE?style=for-the-badge&logo=avalonia&logoColor=white)
+<br/>
+[![Pydantic v2](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydantic/pydantic/main/docs/badge/v2.json)](https://pydantic.dev)
+[![Python](https://img.shields.io/badge/AutoGen-Python-blue?logo=python&logoColor=white)](./python) 
+[![.NET](https://img.shields.io/badge/AutoGen-.NET-green?logo=.net&logoColor=white)](./dotnet) 
 
 ### 🗄️ Databases
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
