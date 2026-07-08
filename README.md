@@ -1,13 +1,15 @@
-# <div align="center">✨ Welcome to Arman Sadeghi's Github ✨</div>
-
 <div align="center">
-  
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Arman+Sadeghi+%F0%9F%91%8B;Passionate+.NET+Developer;Cross-Platform+Enthusiast;AI+%26+Innovation+Explorer)
-  
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt="Coding Banner">
 
-  <br>
-  
+# Arman Sadeghi | .NET Developer & Cross-Platform App Architect | AI & Azure AI Foundry Specialist
+
+### Building cross-platform apps with C#, .NET MAUI, Avalonia, and AI agent frameworks like AutoGen and Pydantic
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Arman+Sadeghi+%F0%9F%91%8B;.NET+%26+C%23+Developer;Cross-Platform+App+Architect;AI+Agent+%26+Azure+AI+Engineer)
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" alt=".NET developer writing cross-platform C# code">
+
+<br>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=Arman-Sadeghi-2003&color=6366f1&style=for-the-badge)
 ![GitHub Followers](https://img.shields.io/github/followers/Arman-Sadeghi-2003?color=6366f1&style=for-the-badge&logo=github)
 ![GitHub Stars](https://img.shields.io/github/stars/Arman-Sadeghi-2003?color=6366f1&style=for-the-badge&logo=github)
@@ -16,12 +18,14 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 🧑‍💻 About Arman Sadeghi — .NET & Cross-Platform Developer
 
 <div>
-<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif">
+<img align="right" alt="Arman Sadeghi coding a cross-platform .NET application" width="400" src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif">
 
->I'm a passionate **.NET Developer** from **Tehran, Iran**, dedicated to crafting exceptional cross-platform applications that bridge the gap between innovation and user experience. With a deep love for clean code and cutting-edge technology, I specialize in building robust solutions that work seamlessly across all platforms.
+>I'm a **.NET Developer** based in **Tehran, Iran**, specializing in **cross-platform application development** with **C#**, **.NET MAUI**, and **Avalonia**. I build robust, scalable software and am currently focused on **AI agent frameworks**, integrating **Pydantic**, **AutoGen (.NET/Python)**, and **Azure AI Foundry** into modern, intelligent applications.
+
+If you're looking for a **.NET developer**, **C# engineer**, or **cross-platform app architect** with hands-on experience in **AI integration** and **multi-agent systems**, you're in the right place.
 
 ```javascript
 const arman = {
@@ -35,27 +39,27 @@ const arman = {
 };
 ```
 
-### What drives me:
-- 🚀 **Innovation**: Pushing the boundaries of what's possible with .NET
-- 🌐 **Cross-Platform Excellence**: Creating seamless experiences across all devices
-- 🤖 **AI Integration**: Bringing intelligent features to modern applications
-- 🔧 **Problem Solving**: Turning complex challenges into elegant solutions
+### What drives me as a developer
+- 🚀 **.NET Innovation**: Pushing the boundaries of what's possible with the .NET ecosystem
+- 🌐 **Cross-Platform Excellence**: Creating seamless C#/.NET MAUI and Avalonia experiences across desktop, mobile, and web
+- 🤖 **AI Integration**: Bringing intelligent, agent-based features to modern applications with AutoGen and Azure AI
+- 🔧 **Problem Solving**: Turning complex engineering challenges into elegant, maintainable solutions
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools — C#, .NET, Python, AI & Cloud
 
 <div align="center">
-  
+
 ### 💻 Programming Languages
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-### 🎯 Frameworks & Technologies
+### 🎯 Frameworks & AI Technologies
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
 ![Avalonia](https://img.shields.io/badge/Avalonia-663399?style=for-the-badge&logo=avalonia&logoColor=white)
 ![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=.net&logoColor=white)
@@ -87,10 +91,10 @@ const arman = {
 
 ---
 
-## 🤝 Let's Collaborate!
+## 🤝 Let's Collaborate on .NET & AI Projects
 
 <div>
-<img align="right" alt="Teamwork" width="350" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif">
+<img align="right" alt="Developers collaborating on an AI-powered .NET project" width="350" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif">
 
 ```diff
 + AI Agent Frameworks (AutoGen .NET/Python)
@@ -100,11 +104,11 @@ const arman = {
 + Open Source AI Projects & Community Building
 ```
 
-### My collaboration values:
+### My collaboration values
 - 💡 **AI-Driven Solutions**: Building intelligent systems with AutoGen & Azure AI
 - 🎯 **Data Validation Excellence**: Leveraging Pydantic for robust data modeling
 - 🤖 **Agent Frameworks**: Creating multi-agent systems for complex workflows
-- 🌱 **Knowledge Sharing**: Growing the AI & .NET community through collaboration
+- 🌱 **Knowledge Sharing**: Growing the AI & .NET developer community through open collaboration
 
 </div>
 
@@ -126,7 +130,7 @@ const arman = {
 </td>
 <td width="50%">
 
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" alt="Fun coding">
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="100%" alt="Fun software development moment">
 
 </td>
 </tr>
@@ -138,8 +142,8 @@ const arman = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Arman-Sadeghi-2003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arman-Sadeghi-2003&layout=compact&langs_count=8&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Arman-Sadeghi-2003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Arman Sadeghi's GitHub stats"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arman-Sadeghi-2003&layout=compact&langs_count=8&theme=tokyonight" alt="Arman Sadeghi's most used programming languages"/>
 
 </div>
 
@@ -167,22 +171,22 @@ const arman = {
 
 ---
 
-## 📫 Connect With Me
+## 📫 Connect With Arman Sadeghi — .NET Developer
 
 <div align="center">
 
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/_Arman_Sadeghi)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arman-Sadeghi-2003) 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Arman-Sadeghi-2003)
 <br/>
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ailc.company.arman@gmail.com)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:armanwollf007@gmail.com)
-[![Yahoo](https://img.shields.io/badge/Yahoo-6001D2?style=for-the-badge&logo=yahoo&logoColor=white)](mailto:Terminator_arman@yahoo.com)  
+[![Yahoo](https://img.shields.io/badge/Yahoo-6001D2?style=for-the-badge&logo=yahoo&logoColor=white)](mailto:Terminator_arman@yahoo.com)
 <br/>
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AILC_AS)
 
-**💬 Let's discuss development challenges, new technologies, and innovative solutions!**
+**💬 Let's discuss .NET development, cross-platform architecture, AI agents, and Azure AI solutions!**
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60" alt="Waving hand emoji"> <em><b>I love connecting with fellow developers</b> — if you want to say <b>hi, I'll be happy to meet you!</b> :)</em>
 
 </div>
 
@@ -192,6 +196,6 @@ const arman = {
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=25&fontColor=ffffff&animation=twinkling"/>
 
- **Thanks for visiting! Let's build something amazing together! 🚀**
+**Thanks for visiting! Let's build something amazing together. 🚀**
 
 </div>
