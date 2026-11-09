@@ -1,16 +1,31 @@
-import os, json, urllib.request
+import os, sys, json, urllib.request, urllib.error
 
-user, token = os.environ["GH_USER"], os.environ.get("GH_TOKEN") or ""
+user = os.environ["GH_USER"]
+token = os.environ.get("GH_TOKEN", "").strip()
+if not token:
+    sys.exit("STATS_TOKEN secret is missing or empty. Check the secret name and re-run.")
+
 q = """query($u:String!){user(login:$u){
  followers{totalCount}
  repositories(ownerAffiliation:OWNER,isFork:false,first:100){totalCount nodes{stargazerCount}}
- pullRequests{totalCount} issues{totalCount}
+ pullRequests{totalCount}
+ issues{totalCount}
  contributionsCollection{totalCommitContributions restrictedContributionsCount}}}"""
+
 req = urllib.request.Request(
     "https://api.github.com/graphql",
     json.dumps({"query": q, "variables": {"u": user}}).encode(),
-    {"Authorization": f"bearer {token}"})
-u = json.load(urllib.request.urlopen(req))["data"]["user"]
+    {"Authorization": f"bearer {token}", "Content-Type": "application/json", "User-Agent": "stats-card"})
+
+try:
+    res = json.load(urllib.request.urlopen(req))
+except urllib.error.HTTPError as e:
+    sys.exit(f"HTTP {e.code}: {e.read().decode()}")
+
+if "errors" in res or not res.get("data"):
+    sys.exit("GraphQL error: " + json.dumps(res, indent=2))
+
+u = res["data"]["user"]
 c = u["contributionsCollection"]
 rows = [
     ("Stars", sum(r["stargazerCount"] for r in u["repositories"]["nodes"])),
@@ -28,4 +43,4 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="330" height="{90+len(ro
 <rect width="100%" height="100%" rx="8" fill="#0D1117" stroke="#00FF00" stroke-opacity=".4"/>
 <text x="25" y="38" fill="#00FF00" font-size="19" font-weight="700">Arman's GitHub Stats</text>{body}</svg>'''
 os.makedirs("assets", exist_ok=True)
-open("assets/stats.svg", "w").write(svg)
+open("assets/stats.svg", "w", encoding="utf-8").write(svg)
