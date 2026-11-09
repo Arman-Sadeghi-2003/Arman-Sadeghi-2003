@@ -1,9 +1,9 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF00&height=200&section=header&text=Arman%20Sadeghi&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=.NET%20Developer%20-%20Cross-Platform%20Architect%20-%20AI%20and%20Azure%20AI%20Foundry&descSize=16&descAlignY=60" width="100%" alt="Arman Sadeghi banner"/>
-  
+
 <a href="https://github.com/Arman-Sadeghi-2003">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=1000&color=00FF00&background=0D111700&center=true&vCenter=true&width=700&lines=Hi+there!+I'm+Arman+Sadeghi+%F0%9F%91%8B;.NET+%26+C%23+Developer;Cross-Platform+App+Architect;AI+Agent+%26+Azure+AI+Engineer" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=1000&color=00FF00&background=0D111700&center=true&vCenter=true&width=700&lines=Hi+there!+I+am+Arman+Sadeghi+%F0%9F%91%8B;.NET+and+C%23+Developer;Cross-Platform+App+Architect;AI+Agent+and+Azure+AI+Engineer" alt="Typing SVG"/>
 </a>
 
 **Building cross-platform apps with C#, .NET MAUI, Avalonia, and AI agent frameworks like AutoGen and Pydantic**
@@ -51,7 +51,7 @@ var arman = new Developer
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 
-**Frameworks & AI**<br/>
+**Frameworks and AI**<br/>
 <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Avalonia-0D1117?style=for-the-badge&logo=avaloniaui&logoColor=00FF00"/>
 <img src="https://img.shields.io/badge/.NET_MAUI-00A86B?style=for-the-badge&logo=dotnet&logoColor=white"/>
@@ -85,10 +85,10 @@ var arman = new Developer
 
 ```diff
 + AI Agent Frameworks (AutoGen .NET/Python)
-+ Data Validation & Modeling (Pydantic)
-+ Azure AI Foundry & Cloud AI Solutions
++ Data Validation and Modeling (Pydantic)
++ Azure AI Foundry and Cloud AI Solutions
 + Cross-Platform Applications (Avalonia, MAUI)
-+ Open Source AI Projects & Community Building
++ Open Source AI Projects and Community Building
 ```
 
 > **Philosophy:** "Validate data, automate agents, scale intelligence" 🌟
@@ -99,14 +99,13 @@ var arman = new Developer
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Arman-Sadeghi-2003&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00FF00&icon_color=00FF00&text_color=C9D1D9&ring_color=00FF00&cache_seconds=86400" alt="GitHub stats"/>
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arman-Sadeghi-2003&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=00FF00&text_color=C9D1D9&cache_seconds=86400" alt="Top languages"/>
+<img height="220" src="./assets/stats.svg" alt="GitHub stats"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com/?user=Arman-Sadeghi-2003&hide_border=true&background=0D1117&ring=00FF00&fire=00FF00&currStreakLabel=00FF00&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E" alt="GitHub streak"/>
 
-<br/>
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Arman-Sadeghi-2003&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&area_color=00FF00&hide_border=true" alt="Activity graph"/>
 
