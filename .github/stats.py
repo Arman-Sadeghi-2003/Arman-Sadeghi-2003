@@ -3,11 +3,11 @@ import os, sys, json, urllib.request, urllib.error
 user = os.environ["GH_USER"]
 token = os.environ.get("GH_TOKEN", "").strip()
 if not token:
-    sys.exit("STATS_TOKEN secret is missing or empty. Check the secret name and re-run.")
+    sys.exit("GH_TOKEN is missing or empty.")
 
 q = """query($u:String!){user(login:$u){
  followers{totalCount}
- repositories(ownerAffiliation:OWNER,isFork:false,first:100){totalCount nodes{stargazerCount}}
+ repositories(ownerAffiliations:[OWNER],isFork:false,first:100){totalCount nodes{stargazerCount}}
  pullRequests{totalCount}
  issues{totalCount}
  contributionsCollection{totalCommitContributions restrictedContributionsCount}}}"""
