@@ -63,24 +63,29 @@ for i, (name, icon, v, th) in enumerate(items):
 open("assets/trophies.svg", "w", encoding="utf-8").write(
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="140" font-family="Segoe UI,Arial,sans-serif">{cards}</svg>')
 
-# ---------- Activity graph (last 90 days) ----------
-days = [d for w in c["contributionCalendar"]["weeks"] for d in w["contributionDays"]][-90:]
+# ---------- Activity graph (last 14 days) ----------
+N_DAYS = 14
+days = [d for w in c["contributionCalendar"]["weeks"] for d in w["contributionDays"]][-N_DAYS:]
 vals = [d["contributionCount"] for d in days]
-GW, GH, px, py = 800, 220, 40, 30
+GW, GH, px, py = 800, 240, 40, 40
 mx = max(max(vals), 1)
 n = max(len(vals) - 1, 1)
 pts = [(px + i * (GW - 2 * px) / n, GH - py - v * (GH - 2 * py) / mx) for i, v in enumerate(vals)]
 line = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
 area = f"{px},{GH-py} " + line + f" {pts[-1][0]:.1f},{GH-py}"
-dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.5" fill="#FFFFFF"/>' for x, y in pts)
+dots = "".join(
+    f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="#FFFFFF"/>'
+    f'<text x="{x:.1f}" y="{y-9:.1f}" fill="#C9D1D9" font-size="11" text-anchor="middle">{v}</text>'
+    for (x, y), v in zip(pts, vals))
+ticks = "".join(
+    f'<text x="{x:.1f}" y="{GH-14}" fill="#8B949E" font-size="10" text-anchor="middle">{d["date"][5:]}</text>'
+    for (x, _), d in zip(pts, days))
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{GW}" height="{GH}" font-family="Segoe UI,Arial,sans-serif">
 <rect width="100%" height="100%" rx="8" fill="#0D1117" stroke="#00FF00" stroke-opacity=".4"/>
-<text x="{px}" y="22" fill="#00FF00" font-size="15" font-weight="700">Contributions, last 90 days</text>
-<text x="{GW-px}" y="22" fill="#8B949E" font-size="12" text-anchor="end">peak: {mx}/day</text>
+<text x="{px}" y="26" fill="#00FF00" font-size="15" font-weight="700">Contributions, last {N_DAYS} days</text>
+<text x="{GW-px}" y="26" fill="#8B949E" font-size="12" text-anchor="end">total: {sum(vals)} / peak: {mx} per day</text>
 <line x1="{px}" y1="{GH-py}" x2="{GW-px}" y2="{GH-py}" stroke="#30363D"/>
 <polygon points="{area}" fill="#00FF00" fill-opacity=".15"/>
-<polyline points="{line}" fill="none" stroke="#00FF00" stroke-width="2"/>{dots}
-<text x="{px}" y="{GH-10}" fill="#8B949E" font-size="11">{days[0]["date"]}</text>
-<text x="{GW-px}" y="{GH-10}" fill="#8B949E" font-size="11" text-anchor="end">{days[-1]["date"]}</text>
+<polyline points="{line}" fill="none" stroke="#00FF00" stroke-width="2.5"/>{dots}{ticks}
 </svg>'''
 open("assets/activity.svg", "w", encoding="utf-8").write(svg)
