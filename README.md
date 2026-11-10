@@ -107,7 +107,7 @@ var arman = new Developer
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Arman-Sadeghi-2003&bg_color=0D1117&color=00FF00&line=00FF00&point=FFFFFF&area=true&area_color=00FF00&hide_border=true" alt="Activity graph"/>
+<img src="./assets/activity.svg" alt="Activity graph"/>
 
 </div>
 
@@ -117,7 +117,7 @@ var arman = new Developer
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Arman-Sadeghi-2003&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7" alt="Trophies"/>
+<img src="./assets/trophies.svg" alt="Trophies"/>
 
 </div>
 
